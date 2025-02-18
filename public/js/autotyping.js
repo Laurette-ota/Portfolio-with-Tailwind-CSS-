@@ -23,8 +23,8 @@ var AutoTyping = (function (e) {
       var n = Object.create(null);
       if (
         (r.r(n),
-        Object.defineProperty(n, "default", { enumerable: !0, value: e }),
-        2 & t && "string" != typeof e)
+          Object.defineProperty(n, "default", { enumerable: !0, value: e }),
+          2 & t && "string" != typeof e)
       )
         for (var i in e)
           r.d(
@@ -40,11 +40,11 @@ var AutoTyping = (function (e) {
       var t =
         e && e.__esModule
           ? function () {
-              return e.default;
-            }
+            return e.default;
+          }
           : function () {
-              return e;
-            };
+            return e;
+          };
       return r.d(t, "a", t), t;
     }),
     (r.o = function (e, t) {
@@ -99,7 +99,7 @@ var AutoTyping = (function (e) {
                 (i = " " == l),
                 (n.innerText += l),
                 0 == e.length &&
-                  (clearInterval(o),
+                (clearInterval(o),
                   setTimeout(() => {
                     let e = setInterval(() => {
                       const i = n.innerText;
@@ -107,7 +107,7 @@ var AutoTyping = (function (e) {
                         ? (n.innerText = "")
                         : (n.innerText = i.substr(0, i.length - 1)),
                         0 == n.innerText.length &&
-                          (clearInterval(e),
+                        (clearInterval(e),
                           setTimeout(() => r(), this.waitBetweenWords));
                     }, this.deleteSpeed);
                   }, this.waitBeforeDelete));
@@ -121,9 +121,9 @@ var AutoTyping = (function (e) {
 
 const exampleText = ['Developer', 'Designer', 'Author'];
 const exampleTyping = new AutoTyping('#text', exampleText, {
-    typeSpeed: 100,
-    deleteSpeed: 100,
-    waitBeforeDelete: 2000,
-    waitBetweenWords: 500,
+  typeSpeed: 100,
+  deleteSpeed: 100,
+  waitBeforeDelete: 2000,
+  waitBetweenWords: 500,
 });
 exampleTyping.start()

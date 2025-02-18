@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @vite('resources/css/app.css','app.js')
+    @vite('resources/css/app.css')
     <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind Portfolio</title>
@@ -128,8 +128,197 @@
             </div>
         </div>
     </div>
+    <!-- services -->
+    <div id="services" class="dark:bg-slate-900">
+        <div class="mx-auto container">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-3">
+                <h1 class="font-bold text-indigo-600">SERVICES</h1>
+                <h1 class="dark:text-white text-3xl">What do I offer?</h1>
+                <p class="w-1/2 text-gray-400 text-center">
+                    My approach to website design is to create a website that
+                    strengthens your company’s brand while ensuring ease of use and
+                    simplicity for your audience.
+                </p>
+            </div>
+            <!-- bottom -->
+            <div class="flex flex-wrap justify-between p-5 sm:p-0">
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+                <!-- card -->
+                <div class="flex flex-col gap-3 shadow-xl my-3 md:my-10 p-5 rounded-lg w-full md:w-4/12">
+                    <img class="w-10" src="./img/icon.png" alt="" />
+                    <h1 class="font-medium dark:text-white text-lg">UX / UI Design</h1>
+                    <p class="text-gray-400">
+                        I specialize in creating interactive websites for individuals and
+                        small businesses.
+                    </p>
+                    <a class="font-semibold text-indigo-600 text-sm" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works -->
+    <div id="works" class="dark:bg-slate-900 py-40">
+        <div class="mx-auto container">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-3">
+                <h1 class="font-bold text-indigo-600">PORTFOLIO</h1>
+                <h1 class="dark:text-white text-3xl">Works & Projects</h1>
+                <p class="w-1/2 text-gray-400 text-center">
+                    I help designers, small agencies and businesses bring their ideas to
+                    life. Powered by Figma, VS Code and coffee, I turn your requirements
+                    into a well-designed websites
+                </p>
+            </div>
+            <!-- bottom -->
+            <div class="flex flex-wrap justify-between p-5 sm:p-0">
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+                <!-- card -->
+                <div
+                    class="shadow-xl m-1 my-3 md:my-10 rounded-lg w-full md:w-5/12 lg:w-1/5 hover:scale-110 transition-all">
+                    <img src="./img/item.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+        <div class="mx-auto container">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-3">
+                <h1 class="font-bold text-indigo-600">CONTACT</h1>
+                <h1 class="dark:text-white text-3xl">Have a Question?</h1>
+                <p class="w-1/2 text-gray-400 text-center">
+                    Do you have an idea? Let's discuss it and see what we can do
+                    together.
+                </p>
+            </div>
+            <!-- bottom -->
+            <form class="flex flex-col items-center gap-5 mt-5 p-8">
+                <input
+                    class="dark:bg-slate-800 p-2 rounded-sm ring-1 ring-indigo-300 dark:ring-0 w-full md:w-1/2 dark:text-white"
+                    type="text" placeholder="Name Surname" />
+                <input
+                    class="dark:bg-slate-800 p-2 rounded-sm ring-1 ring-indigo-300 dark:ring-0 w-full md:w-1/2 dark:text-white"
+                    type="email" placeholder="Email" />
+                <textarea
+                    class="dark:bg-slate-800 p-2 rounded-sm ring-1 ring-indigo-300 dark:ring-0 w-full md:w-1/2 dark:text-white"
+                    cols="30" rows="10" placeholder="Message..."></textarea>
+                <button class="bg-indigo-600 px-3 py-2 rounded-md w-1/2 font-medium text-white cursor-pointer">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-gray-800 w-full">
+      <div class="flex justify-between items-center mx-auto py-5 container">
+        <div class="flex items-center gap-2">
+          <img class="w-8" src="./img/logo.png" alt="" />
+          <span class="font-bold text-white text-2xl">Portwind.</span>
+        </div>
+        <span class="hidden md:block font-medium text-white"
+          >© 2022 Portwind. Design with ♥️ by Lama Dev.</span
+        >
+        <div class="flex gap-2">
+          <img class="w-4 cursor-pointer" src="./img/facebook.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/instagram.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/twitter.png" alt="" />
+          <img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ asset("css/style.css") }}"></script>
     <script src="{{ asset("js/app.js") }}"></script>
     <script src="{{ asset("js/autotyping.js") }}"></script>
 </body>
+
+</html>
 
 </html>
