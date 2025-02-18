@@ -5,12 +5,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @vite('resources/css/app.css')
+    @vite('resources/css/app.css','app.js')
     <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind Portfolio</title>
-    <script src="resources/css/app.css/app.js"></script>
-    <script src="resources/js/autotyping.js"></script>
 </head>
 
 <body class="font-nunito">
@@ -130,8 +128,8 @@
             </div>
         </div>
     </div>
-    <script src="./css/app.css/app.js"></script>
-    <script src="./js/autotyping.js"></script>
+    <script src="{{ asset("js/app.js") }}"></script>
+    <script src="{{ asset("js/autotyping.js") }}"></script>
 </body>
 
 </html>
